@@ -1,0 +1,572 @@
+28/01/2020 16:54:41 - [DOWNLOAD_LOTE_DADOS]
+28/01/2020 16:54:41 - {"CNPJInteressado": "", "ultNSU": , "modelo": "55", "tpAmb": "2", "incluirPDF": 0, "apenasComXml": 0, "comEventos": 0}
+28/01/2020 16:54:43 - [DOWNLOAD_LOTE_RESPOSTA]
+28/01/2020 16:54:43 - 
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bad Request</title>
+        <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAlFJREFUeNqUU8tOFEEUPVVdNV3dPe8xYRBnjGhmBgKjKzCIiQvBoIaNbly5Z+PSv3Aj7DSiP2B0rwkLGVdGgxITSCRIJGSMEQWZR3eVt5sEFBgTb/dN1yvnnHtPNTPG4PqdHgCMXnPRSZrpSuH8vUJu4DE4rYHDGAZDX62BZttHqTiIayM3gGiXQsgYLEvATaqxU+dy1U13YXapXptpNHY8iwn8KyIAzm1KBdtRZWErpI5lEWTXp5Z/vHpZ3/wyKKwYGGOdAYwR0EZwoezTYApBEIObyELl/aE1/83cp40Pt5mxqCKrE4Ck+mVWKKcI5tA8BLEhRBKJLjez6a7MLq7XZtp+yyOawwCBtkiBVZDKzRk4NN7NQBMYPHiZDFhXY+p9ff7F961vVcnl4R5I2ykJ5XFN7Ab7Gc61VoipNBKF+PDyztu5lfrSLT/wIwCxq0CAGtXHZTzqR2jtwQiXONma6hHpj9sLT7YaPxfTXuZdBGA02Wi7FS48YiTfj+i2NhqtdhP5RC8mh2/Op7y0v6eAcWVLFT8D7kWX5S9mepp+C450MV6aWL1cGnvkxbwHtLW2B9AOkLeUd9KEDuh9fl/7CEj7YH5g+3r/lWfF9In7tPz6T4IIwBJOr1SJyIGQMZQbsh5P9uBq5VJtqHh2mo49pdw5WFoEwKWqWHacaWOjQXWGcifKo6vj5RGS6zykI587XeUIQDqJSmAp+lE4qt19W5P9o8+Lma5DcjsC8JiT607lMVkdqQ0Vyh3lHhmh52tfNy78ajXv0rgYzv8nfwswANuk+7sD/Q0aAAAAAElFTkSuQmCC">
+        <style>
+            html, body, pre {
+                margin: 0;
+                padding: 0;
+                font-family: Monaco, 'Lucida Console', monospace;
+                background: #ECECEC;
+            }
+            h1 {
+                margin: 0;
+                background: #AD632A;
+                padding: 20px 45px;
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+                border-bottom: 1px solid #9F5805;
+                font-size: 28px;
+            }
+            p#detail {
+                margin: 0;
+                padding: 15px 45px;
+                background: #F6A960;
+                border-top: 4px solid #D29052;
+                color: #733512;
+                text-shadow: 1px 1px 1px rgba(255,255,255,.3);
+                font-size: 14px;
+                border-bottom: 1px solid #BA7F5B;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Bad Request</h1>
+
+        <p id="detail">
+            For request 'POST /dfe/bunch' [Error decoding json body: com.fasterxml.jackson.core.JsonParseException: Unexpected character (&#x27;,&#x27; (code 44)): expected a value
+ at [Source: akka.util.ByteIterator$ByteArrayIterator$$anon$1@a79d695; line: 1, column: 36]]
+        </p>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+28/01/2020 16:54:52 - [DOWNLOAD_LOTE_DADOS]
+28/01/2020 16:54:52 - {"CNPJInteressado": "", "ultNSU": , "modelo": "55", "tpAmb": "2", "incluirPDF": 0, "apenasComXml": 0, "comEventos": 0}
+28/01/2020 16:54:52 - [DOWNLOAD_LOTE_RESPOSTA]
+28/01/2020 16:54:52 - 
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bad Request</title>
+        <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAlFJREFUeNqUU8tOFEEUPVVdNV3dPe8xYRBnjGhmBgKjKzCIiQvBoIaNbly5Z+PSv3Aj7DSiP2B0rwkLGVdGgxITSCRIJGSMEQWZR3eVt5sEFBgTb/dN1yvnnHtPNTPG4PqdHgCMXnPRSZrpSuH8vUJu4DE4rYHDGAZDX62BZttHqTiIayM3gGiXQsgYLEvATaqxU+dy1U13YXapXptpNHY8iwn8KyIAzm1KBdtRZWErpI5lEWTXp5Z/vHpZ3/wyKKwYGGOdAYwR0EZwoezTYApBEIObyELl/aE1/83cp40Pt5mxqCKrE4Ck+mVWKKcI5tA8BLEhRBKJLjez6a7MLq7XZtp+yyOawwCBtkiBVZDKzRk4NN7NQBMYPHiZDFhXY+p9ff7F961vVcnl4R5I2ykJ5XFN7Ab7Gc61VoipNBKF+PDyztu5lfrSLT/wIwCxq0CAGtXHZTzqR2jtwQiXONma6hHpj9sLT7YaPxfTXuZdBGA02Wi7FS48YiTfj+i2NhqtdhP5RC8mh2/Op7y0v6eAcWVLFT8D7kWX5S9mepp+C450MV6aWL1cGnvkxbwHtLW2B9AOkLeUd9KEDuh9fl/7CEj7YH5g+3r/lWfF9In7tPz6T4IIwBJOr1SJyIGQMZQbsh5P9uBq5VJtqHh2mo49pdw5WFoEwKWqWHacaWOjQXWGcifKo6vj5RGS6zykI587XeUIQDqJSmAp+lE4qt19W5P9o8+Lma5DcjsC8JiT607lMVkdqQ0Vyh3lHhmh52tfNy78ajXv0rgYzv8nfwswANuk+7sD/Q0aAAAAAElFTkSuQmCC">
+        <style>
+            html, body, pre {
+                margin: 0;
+                padding: 0;
+                font-family: Monaco, 'Lucida Console', monospace;
+                background: #ECECEC;
+            }
+            h1 {
+                margin: 0;
+                background: #AD632A;
+                padding: 20px 45px;
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+                border-bottom: 1px solid #9F5805;
+                font-size: 28px;
+            }
+            p#detail {
+                margin: 0;
+                padding: 15px 45px;
+                background: #F6A960;
+                border-top: 4px solid #D29052;
+                color: #733512;
+                text-shadow: 1px 1px 1px rgba(255,255,255,.3);
+                font-size: 14px;
+                border-bottom: 1px solid #BA7F5B;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Bad Request</h1>
+
+        <p id="detail">
+            For request 'POST /dfe/bunch' [Error decoding json body: com.fasterxml.jackson.core.JsonParseException: Unexpected character (&#x27;,&#x27; (code 44)): expected a value
+ at [Source: akka.util.ByteIterator$ByteArrayIterator$$anon$1@c0ace75; line: 1, column: 36]]
+        </p>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+28/01/2020 16:57:51 - [DESACORDO_OPERACAO_DADOS]
+28/01/2020 16:57:51 - {"CNPJInteressado": "11231", "infEvento": {"chCTe": "123123", "tpAmb": "2", "dhEvento": "20-01-2816:5716:57:51-3:00", "indDesacordooper": "1"
+28/01/2020 16:57:52 - [DESACORDO_OPERACAO_RESPOSTA]
+28/01/2020 16:57:52 - 
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bad Request</title>
+        <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAlFJREFUeNqUU8tOFEEUPVVdNV3dPe8xYRBnjGhmBgKjKzCIiQvBoIaNbly5Z+PSv3Aj7DSiP2B0rwkLGVdGgxITSCRIJGSMEQWZR3eVt5sEFBgTb/dN1yvnnHtPNTPG4PqdHgCMXnPRSZrpSuH8vUJu4DE4rYHDGAZDX62BZttHqTiIayM3gGiXQsgYLEvATaqxU+dy1U13YXapXptpNHY8iwn8KyIAzm1KBdtRZWErpI5lEWTXp5Z/vHpZ3/wyKKwYGGOdAYwR0EZwoezTYApBEIObyELl/aE1/83cp40Pt5mxqCKrE4Ck+mVWKKcI5tA8BLEhRBKJLjez6a7MLq7XZtp+yyOawwCBtkiBVZDKzRk4NN7NQBMYPHiZDFhXY+p9ff7F961vVcnl4R5I2ykJ5XFN7Ab7Gc61VoipNBKF+PDyztu5lfrSLT/wIwCxq0CAGtXHZTzqR2jtwQiXONma6hHpj9sLT7YaPxfTXuZdBGA02Wi7FS48YiTfj+i2NhqtdhP5RC8mh2/Op7y0v6eAcWVLFT8D7kWX5S9mepp+C450MV6aWL1cGnvkxbwHtLW2B9AOkLeUd9KEDuh9fl/7CEj7YH5g+3r/lWfF9In7tPz6T4IIwBJOr1SJyIGQMZQbsh5P9uBq5VJtqHh2mo49pdw5WFoEwKWqWHacaWOjQXWGcifKo6vj5RGS6zykI587XeUIQDqJSmAp+lE4qt19W5P9o8+Lma5DcjsC8JiT607lMVkdqQ0Vyh3lHhmh52tfNy78ajXv0rgYzv8nfwswANuk+7sD/Q0aAAAAAElFTkSuQmCC">
+        <style>
+            html, body, pre {
+                margin: 0;
+                padding: 0;
+                font-family: Monaco, 'Lucida Console', monospace;
+                background: #ECECEC;
+            }
+            h1 {
+                margin: 0;
+                background: #AD632A;
+                padding: 20px 45px;
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+                border-bottom: 1px solid #9F5805;
+                font-size: 28px;
+            }
+            p#detail {
+                margin: 0;
+                padding: 15px 45px;
+                background: #F6A960;
+                border-top: 4px solid #D29052;
+                color: #733512;
+                text-shadow: 1px 1px 1px rgba(255,255,255,.3);
+                font-size: 14px;
+                border-bottom: 1px solid #BA7F5B;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Bad Request</h1>
+
+        <p id="detail">
+            For request 'POST /events/cte/disagree' [Error decoding json body: com.fasterxml.jackson.core.io.JsonEOFException: Unexpected end-of-input: expected close marker for Object (start marker at [Source: akka.util.ByteIterator$ByteArrayIterator$$anon$1@6f53b3dc; line: 1, column: 43])
+ at [Source: akka.util.ByteIterator$ByteArrayIterator$$anon$1@6f53b3dc; line: 1, column: 283]]
+        </p>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+28/01/2020 16:57:59 - [DESACORDO_OPERACAO_DADOS]
+28/01/2020 16:57:59 - {"CNPJInteressado": "11231", "infEvento": {"chCTe": "123123", "tpAmb": "2", "dhEvento": "20-01-2816:5716:57:59-3:00", "indDesacordooper": "1"
+28/01/2020 16:57:59 - [DESACORDO_OPERACAO_RESPOSTA]
+28/01/2020 16:57:59 - 
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bad Request</title>
+        <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAlFJREFUeNqUU8tOFEEUPVVdNV3dPe8xYRBnjGhmBgKjKzCIiQvBoIaNbly5Z+PSv3Aj7DSiP2B0rwkLGVdGgxITSCRIJGSMEQWZR3eVt5sEFBgTb/dN1yvnnHtPNTPG4PqdHgCMXnPRSZrpSuH8vUJu4DE4rYHDGAZDX62BZttHqTiIayM3gGiXQsgYLEvATaqxU+dy1U13YXapXptpNHY8iwn8KyIAzm1KBdtRZWErpI5lEWTXp5Z/vHpZ3/wyKKwYGGOdAYwR0EZwoezTYApBEIObyELl/aE1/83cp40Pt5mxqCKrE4Ck+mVWKKcI5tA8BLEhRBKJLjez6a7MLq7XZtp+yyOawwCBtkiBVZDKzRk4NN7NQBMYPHiZDFhXY+p9ff7F961vVcnl4R5I2ykJ5XFN7Ab7Gc61VoipNBKF+PDyztu5lfrSLT/wIwCxq0CAGtXHZTzqR2jtwQiXONma6hHpj9sLT7YaPxfTXuZdBGA02Wi7FS48YiTfj+i2NhqtdhP5RC8mh2/Op7y0v6eAcWVLFT8D7kWX5S9mepp+C450MV6aWL1cGnvkxbwHtLW2B9AOkLeUd9KEDuh9fl/7CEj7YH5g+3r/lWfF9In7tPz6T4IIwBJOr1SJyIGQMZQbsh5P9uBq5VJtqHh2mo49pdw5WFoEwKWqWHacaWOjQXWGcifKo6vj5RGS6zykI587XeUIQDqJSmAp+lE4qt19W5P9o8+Lma5DcjsC8JiT607lMVkdqQ0Vyh3lHhmh52tfNy78ajXv0rgYzv8nfwswANuk+7sD/Q0aAAAAAElFTkSuQmCC">
+        <style>
+            html, body, pre {
+                margin: 0;
+                padding: 0;
+                font-family: Monaco, 'Lucida Console', monospace;
+                background: #ECECEC;
+            }
+            h1 {
+                margin: 0;
+                background: #AD632A;
+                padding: 20px 45px;
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+                border-bottom: 1px solid #9F5805;
+                font-size: 28px;
+            }
+            p#detail {
+                margin: 0;
+                padding: 15px 45px;
+                background: #F6A960;
+                border-top: 4px solid #D29052;
+                color: #733512;
+                text-shadow: 1px 1px 1px rgba(255,255,255,.3);
+                font-size: 14px;
+                border-bottom: 1px solid #BA7F5B;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Bad Request</h1>
+
+        <p id="detail">
+            For request 'POST /events/cte/disagree' [Error decoding json body: com.fasterxml.jackson.core.io.JsonEOFException: Unexpected end-of-input: expected close marker for Object (start marker at [Source: akka.util.ByteIterator$ByteArrayIterator$$anon$1@cb00e8b; line: 1, column: 43])
+ at [Source: akka.util.ByteIterator$ByteArrayIterator$$anon$1@cb00e8b; line: 1, column: 283]]
+        </p>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+28/01/2020 16:58:17 - [DESACORDO_OPERACAO_DADOS]
+28/01/2020 16:58:17 - {"CNPJInteressado": "11231", "infEvento": {"chCTe": "123123", "tpAmb": "2", "dhEvento": "20-01-2816:5816:58:17-3:00", "indDesacordooper": "1"
+28/01/2020 16:58:17 - [DESACORDO_OPERACAO_RESPOSTA]
+28/01/2020 16:58:17 - 
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bad Request</title>
+        <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAlFJREFUeNqUU8tOFEEUPVVdNV3dPe8xYRBnjGhmBgKjKzCIiQvBoIaNbly5Z+PSv3Aj7DSiP2B0rwkLGVdGgxITSCRIJGSMEQWZR3eVt5sEFBgTb/dN1yvnnHtPNTPG4PqdHgCMXnPRSZrpSuH8vUJu4DE4rYHDGAZDX62BZttHqTiIayM3gGiXQsgYLEvATaqxU+dy1U13YXapXptpNHY8iwn8KyIAzm1KBdtRZWErpI5lEWTXp5Z/vHpZ3/wyKKwYGGOdAYwR0EZwoezTYApBEIObyELl/aE1/83cp40Pt5mxqCKrE4Ck+mVWKKcI5tA8BLEhRBKJLjez6a7MLq7XZtp+yyOawwCBtkiBVZDKzRk4NN7NQBMYPHiZDFhXY+p9ff7F961vVcnl4R5I2ykJ5XFN7Ab7Gc61VoipNBKF+PDyztu5lfrSLT/wIwCxq0CAGtXHZTzqR2jtwQiXONma6hHpj9sLT7YaPxfTXuZdBGA02Wi7FS48YiTfj+i2NhqtdhP5RC8mh2/Op7y0v6eAcWVLFT8D7kWX5S9mepp+C450MV6aWL1cGnvkxbwHtLW2B9AOkLeUd9KEDuh9fl/7CEj7YH5g+3r/lWfF9In7tPz6T4IIwBJOr1SJyIGQMZQbsh5P9uBq5VJtqHh2mo49pdw5WFoEwKWqWHacaWOjQXWGcifKo6vj5RGS6zykI587XeUIQDqJSmAp+lE4qt19W5P9o8+Lma5DcjsC8JiT607lMVkdqQ0Vyh3lHhmh52tfNy78ajXv0rgYzv8nfwswANuk+7sD/Q0aAAAAAElFTkSuQmCC">
+        <style>
+            html, body, pre {
+                margin: 0;
+                padding: 0;
+                font-family: Monaco, 'Lucida Console', monospace;
+                background: #ECECEC;
+            }
+            h1 {
+                margin: 0;
+                background: #AD632A;
+                padding: 20px 45px;
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+                border-bottom: 1px solid #9F5805;
+                font-size: 28px;
+            }
+            p#detail {
+                margin: 0;
+                padding: 15px 45px;
+                background: #F6A960;
+                border-top: 4px solid #D29052;
+                color: #733512;
+                text-shadow: 1px 1px 1px rgba(255,255,255,.3);
+                font-size: 14px;
+                border-bottom: 1px solid #BA7F5B;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Bad Request</h1>
+
+        <p id="detail">
+            For request 'POST /events/cte/disagree' [Error decoding json body: com.fasterxml.jackson.core.io.JsonEOFException: Unexpected end-of-input: expected close marker for Object (start marker at [Source: akka.util.ByteIterator$ByteArrayIterator$$anon$1@bbd71f7; line: 1, column: 43])
+ at [Source: akka.util.ByteIterator$ByteArrayIterator$$anon$1@bbd71f7; line: 1, column: 283]]
+        </p>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+28/01/2020 16:58:17 - [DESACORDO_OPERACAO_DADOS]
+28/01/2020 16:58:17 - {"CNPJInteressado": "11231", "infEvento": {"chCTe": "123123", "tpAmb": "2", "dhEvento": "20-01-2816:5816:58:17-3:00", "indDesacordooper": "1"
+28/01/2020 16:58:18 - [DESACORDO_OPERACAO_RESPOSTA]
+28/01/2020 16:58:18 - 
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bad Request</title>
+        <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAlFJREFUeNqUU8tOFEEUPVVdNV3dPe8xYRBnjGhmBgKjKzCIiQvBoIaNbly5Z+PSv3Aj7DSiP2B0rwkLGVdGgxITSCRIJGSMEQWZR3eVt5sEFBgTb/dN1yvnnHtPNTPG4PqdHgCMXnPRSZrpSuH8vUJu4DE4rYHDGAZDX62BZttHqTiIayM3gGiXQsgYLEvATaqxU+dy1U13YXapXptpNHY8iwn8KyIAzm1KBdtRZWErpI5lEWTXp5Z/vHpZ3/wyKKwYGGOdAYwR0EZwoezTYApBEIObyELl/aE1/83cp40Pt5mxqCKrE4Ck+mVWKKcI5tA8BLEhRBKJLjez6a7MLq7XZtp+yyOawwCBtkiBVZDKzRk4NN7NQBMYPHiZDFhXY+p9ff7F961vVcnl4R5I2ykJ5XFN7Ab7Gc61VoipNBKF+PDyztu5lfrSLT/wIwCxq0CAGtXHZTzqR2jtwQiXONma6hHpj9sLT7YaPxfTXuZdBGA02Wi7FS48YiTfj+i2NhqtdhP5RC8mh2/Op7y0v6eAcWVLFT8D7kWX5S9mepp+C450MV6aWL1cGnvkxbwHtLW2B9AOkLeUd9KEDuh9fl/7CEj7YH5g+3r/lWfF9In7tPz6T4IIwBJOr1SJyIGQMZQbsh5P9uBq5VJtqHh2mo49pdw5WFoEwKWqWHacaWOjQXWGcifKo6vj5RGS6zykI587XeUIQDqJSmAp+lE4qt19W5P9o8+Lma5DcjsC8JiT607lMVkdqQ0Vyh3lHhmh52tfNy78ajXv0rgYzv8nfwswANuk+7sD/Q0aAAAAAElFTkSuQmCC">
+        <style>
+            html, body, pre {
+                margin: 0;
+                padding: 0;
+                font-family: Monaco, 'Lucida Console', monospace;
+                background: #ECECEC;
+            }
+            h1 {
+                margin: 0;
+                background: #AD632A;
+                padding: 20px 45px;
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+                border-bottom: 1px solid #9F5805;
+                font-size: 28px;
+            }
+            p#detail {
+                margin: 0;
+                padding: 15px 45px;
+                background: #F6A960;
+                border-top: 4px solid #D29052;
+                color: #733512;
+                text-shadow: 1px 1px 1px rgba(255,255,255,.3);
+                font-size: 14px;
+                border-bottom: 1px solid #BA7F5B;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Bad Request</h1>
+
+        <p id="detail">
+            For request 'POST /events/cte/disagree' [Error decoding json body: com.fasterxml.jackson.core.io.JsonEOFException: Unexpected end-of-input: expected close marker for Object (start marker at [Source: akka.util.ByteIterator$ByteArrayIterator$$anon$1@7d5e69c0; line: 1, column: 43])
+ at [Source: akka.util.ByteIterator$ByteArrayIterator$$anon$1@7d5e69c0; line: 1, column: 283]]
+        </p>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+28/01/2020 16:58:18 - [DESACORDO_OPERACAO_DADOS]
+28/01/2020 16:58:18 - {"CNPJInteressado": "11231", "infEvento": {"chCTe": "123123", "tpAmb": "2", "dhEvento": "20-01-2816:5816:58:18-3:00", "indDesacordooper": "1"
+28/01/2020 16:58:18 - [DESACORDO_OPERACAO_RESPOSTA]
+28/01/2020 16:58:18 - 
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bad Request</title>
+        <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAlFJREFUeNqUU8tOFEEUPVVdNV3dPe8xYRBnjGhmBgKjKzCIiQvBoIaNbly5Z+PSv3Aj7DSiP2B0rwkLGVdGgxITSCRIJGSMEQWZR3eVt5sEFBgTb/dN1yvnnHtPNTPG4PqdHgCMXnPRSZrpSuH8vUJu4DE4rYHDGAZDX62BZttHqTiIayM3gGiXQsgYLEvATaqxU+dy1U13YXapXptpNHY8iwn8KyIAzm1KBdtRZWErpI5lEWTXp5Z/vHpZ3/wyKKwYGGOdAYwR0EZwoezTYApBEIObyELl/aE1/83cp40Pt5mxqCKrE4Ck+mVWKKcI5tA8BLEhRBKJLjez6a7MLq7XZtp+yyOawwCBtkiBVZDKzRk4NN7NQBMYPHiZDFhXY+p9ff7F961vVcnl4R5I2ykJ5XFN7Ab7Gc61VoipNBKF+PDyztu5lfrSLT/wIwCxq0CAGtXHZTzqR2jtwQiXONma6hHpj9sLT7YaPxfTXuZdBGA02Wi7FS48YiTfj+i2NhqtdhP5RC8mh2/Op7y0v6eAcWVLFT8D7kWX5S9mepp+C450MV6aWL1cGnvkxbwHtLW2B9AOkLeUd9KEDuh9fl/7CEj7YH5g+3r/lWfF9In7tPz6T4IIwBJOr1SJyIGQMZQbsh5P9uBq5VJtqHh2mo49pdw5WFoEwKWqWHacaWOjQXWGcifKo6vj5RGS6zykI587XeUIQDqJSmAp+lE4qt19W5P9o8+Lma5DcjsC8JiT607lMVkdqQ0Vyh3lHhmh52tfNy78ajXv0rgYzv8nfwswANuk+7sD/Q0aAAAAAElFTkSuQmCC">
+        <style>
+            html, body, pre {
+                margin: 0;
+                padding: 0;
+                font-family: Monaco, 'Lucida Console', monospace;
+                background: #ECECEC;
+            }
+            h1 {
+                margin: 0;
+                background: #AD632A;
+                padding: 20px 45px;
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+                border-bottom: 1px solid #9F5805;
+                font-size: 28px;
+            }
+            p#detail {
+                margin: 0;
+                padding: 15px 45px;
+                background: #F6A960;
+                border-top: 4px solid #D29052;
+                color: #733512;
+                text-shadow: 1px 1px 1px rgba(255,255,255,.3);
+                font-size: 14px;
+                border-bottom: 1px solid #BA7F5B;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Bad Request</h1>
+
+        <p id="detail">
+            For request 'POST /events/cte/disagree' [Error decoding json body: com.fasterxml.jackson.core.io.JsonEOFException: Unexpected end-of-input: expected close marker for Object (start marker at [Source: akka.util.ByteIterator$ByteArrayIterator$$anon$1@6cbe8320; line: 1, column: 43])
+ at [Source: akka.util.ByteIterator$ByteArrayIterator$$anon$1@6cbe8320; line: 1, column: 283]]
+        </p>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+28/01/2020 16:58:18 - [DESACORDO_OPERACAO_DADOS]
+28/01/2020 16:58:18 - {"CNPJInteressado": "11231", "infEvento": {"chCTe": "123123", "tpAmb": "2", "dhEvento": "20-01-2816:5816:58:18-3:00", "indDesacordooper": "1"
+28/01/2020 16:58:18 - [DESACORDO_OPERACAO_RESPOSTA]
+28/01/2020 16:58:18 - 
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bad Request</title>
+        <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAlFJREFUeNqUU8tOFEEUPVVdNV3dPe8xYRBnjGhmBgKjKzCIiQvBoIaNbly5Z+PSv3Aj7DSiP2B0rwkLGVdGgxITSCRIJGSMEQWZR3eVt5sEFBgTb/dN1yvnnHtPNTPG4PqdHgCMXnPRSZrpSuH8vUJu4DE4rYHDGAZDX62BZttHqTiIayM3gGiXQsgYLEvATaqxU+dy1U13YXapXptpNHY8iwn8KyIAzm1KBdtRZWErpI5lEWTXp5Z/vHpZ3/wyKKwYGGOdAYwR0EZwoezTYApBEIObyELl/aE1/83cp40Pt5mxqCKrE4Ck+mVWKKcI5tA8BLEhRBKJLjez6a7MLq7XZtp+yyOawwCBtkiBVZDKzRk4NN7NQBMYPHiZDFhXY+p9ff7F961vVcnl4R5I2ykJ5XFN7Ab7Gc61VoipNBKF+PDyztu5lfrSLT/wIwCxq0CAGtXHZTzqR2jtwQiXONma6hHpj9sLT7YaPxfTXuZdBGA02Wi7FS48YiTfj+i2NhqtdhP5RC8mh2/Op7y0v6eAcWVLFT8D7kWX5S9mepp+C450MV6aWL1cGnvkxbwHtLW2B9AOkLeUd9KEDuh9fl/7CEj7YH5g+3r/lWfF9In7tPz6T4IIwBJOr1SJyIGQMZQbsh5P9uBq5VJtqHh2mo49pdw5WFoEwKWqWHacaWOjQXWGcifKo6vj5RGS6zykI587XeUIQDqJSmAp+lE4qt19W5P9o8+Lma5DcjsC8JiT607lMVkdqQ0Vyh3lHhmh52tfNy78ajXv0rgYzv8nfwswANuk+7sD/Q0aAAAAAElFTkSuQmCC">
+        <style>
+            html, body, pre {
+                margin: 0;
+                padding: 0;
+                font-family: Monaco, 'Lucida Console', monospace;
+                background: #ECECEC;
+            }
+            h1 {
+                margin: 0;
+                background: #AD632A;
+                padding: 20px 45px;
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+                border-bottom: 1px solid #9F5805;
+                font-size: 28px;
+            }
+            p#detail {
+                margin: 0;
+                padding: 15px 45px;
+                background: #F6A960;
+                border-top: 4px solid #D29052;
+                color: #733512;
+                text-shadow: 1px 1px 1px rgba(255,255,255,.3);
+                font-size: 14px;
+                border-bottom: 1px solid #BA7F5B;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Bad Request</h1>
+
+        <p id="detail">
+            For request 'POST /events/cte/disagree' [Error decoding json body: com.fasterxml.jackson.core.io.JsonEOFException: Unexpected end-of-input: expected close marker for Object (start marker at [Source: akka.util.ByteIterator$ByteArrayIterator$$anon$1@58135fa4; line: 1, column: 43])
+ at [Source: akka.util.ByteIterator$ByteArrayIterator$$anon$1@58135fa4; line: 1, column: 283]]
+        </p>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+28/01/2020 16:58:18 - [DESACORDO_OPERACAO_DADOS]
+28/01/2020 16:58:18 - {"CNPJInteressado": "11231", "infEvento": {"chCTe": "123123", "tpAmb": "2", "dhEvento": "20-01-2816:5816:58:18-3:00", "indDesacordooper": "1"
+28/01/2020 16:58:19 - [DESACORDO_OPERACAO_RESPOSTA]
+28/01/2020 16:58:19 - 
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bad Request</title>
+        <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAlFJREFUeNqUU8tOFEEUPVVdNV3dPe8xYRBnjGhmBgKjKzCIiQvBoIaNbly5Z+PSv3Aj7DSiP2B0rwkLGVdGgxITSCRIJGSMEQWZR3eVt5sEFBgTb/dN1yvnnHtPNTPG4PqdHgCMXnPRSZrpSuH8vUJu4DE4rYHDGAZDX62BZttHqTiIayM3gGiXQsgYLEvATaqxU+dy1U13YXapXptpNHY8iwn8KyIAzm1KBdtRZWErpI5lEWTXp5Z/vHpZ3/wyKKwYGGOdAYwR0EZwoezTYApBEIObyELl/aE1/83cp40Pt5mxqCKrE4Ck+mVWKKcI5tA8BLEhRBKJLjez6a7MLq7XZtp+yyOawwCBtkiBVZDKzRk4NN7NQBMYPHiZDFhXY+p9ff7F961vVcnl4R5I2ykJ5XFN7Ab7Gc61VoipNBKF+PDyztu5lfrSLT/wIwCxq0CAGtXHZTzqR2jtwQiXONma6hHpj9sLT7YaPxfTXuZdBGA02Wi7FS48YiTfj+i2NhqtdhP5RC8mh2/Op7y0v6eAcWVLFT8D7kWX5S9mepp+C450MV6aWL1cGnvkxbwHtLW2B9AOkLeUd9KEDuh9fl/7CEj7YH5g+3r/lWfF9In7tPz6T4IIwBJOr1SJyIGQMZQbsh5P9uBq5VJtqHh2mo49pdw5WFoEwKWqWHacaWOjQXWGcifKo6vj5RGS6zykI587XeUIQDqJSmAp+lE4qt19W5P9o8+Lma5DcjsC8JiT607lMVkdqQ0Vyh3lHhmh52tfNy78ajXv0rgYzv8nfwswANuk+7sD/Q0aAAAAAElFTkSuQmCC">
+        <style>
+            html, body, pre {
+                margin: 0;
+                padding: 0;
+                font-family: Monaco, 'Lucida Console', monospace;
+                background: #ECECEC;
+            }
+            h1 {
+                margin: 0;
+                background: #AD632A;
+                padding: 20px 45px;
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+                border-bottom: 1px solid #9F5805;
+                font-size: 28px;
+            }
+            p#detail {
+                margin: 0;
+                padding: 15px 45px;
+                background: #F6A960;
+                border-top: 4px solid #D29052;
+                color: #733512;
+                text-shadow: 1px 1px 1px rgba(255,255,255,.3);
+                font-size: 14px;
+                border-bottom: 1px solid #BA7F5B;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Bad Request</h1>
+
+        <p id="detail">
+            For request 'POST /events/cte/disagree' [Error decoding json body: com.fasterxml.jackson.core.io.JsonEOFException: Unexpected end-of-input: expected close marker for Object (start marker at [Source: akka.util.ByteIterator$ByteArrayIterator$$anon$1@564071b4; line: 1, column: 43])
+ at [Source: akka.util.ByteIterator$ByteArrayIterator$$anon$1@564071b4; line: 1, column: 283]]
+        </p>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+28/01/2020 16:58:19 - [DESACORDO_OPERACAO_DADOS]
+28/01/2020 16:58:19 - {"CNPJInteressado": "11231", "infEvento": {"chCTe": "123123", "tpAmb": "2", "dhEvento": "20-01-2816:5816:58:19-3:00", "indDesacordooper": "1"
+28/01/2020 16:58:19 - [DESACORDO_OPERACAO_RESPOSTA]
+28/01/2020 16:58:19 - 
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bad Request</title>
+        <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAlFJREFUeNqUU8tOFEEUPVVdNV3dPe8xYRBnjGhmBgKjKzCIiQvBoIaNbly5Z+PSv3Aj7DSiP2B0rwkLGVdGgxITSCRIJGSMEQWZR3eVt5sEFBgTb/dN1yvnnHtPNTPG4PqdHgCMXnPRSZrpSuH8vUJu4DE4rYHDGAZDX62BZttHqTiIayM3gGiXQsgYLEvATaqxU+dy1U13YXapXptpNHY8iwn8KyIAzm1KBdtRZWErpI5lEWTXp5Z/vHpZ3/wyKKwYGGOdAYwR0EZwoezTYApBEIObyELl/aE1/83cp40Pt5mxqCKrE4Ck+mVWKKcI5tA8BLEhRBKJLjez6a7MLq7XZtp+yyOawwCBtkiBVZDKzRk4NN7NQBMYPHiZDFhXY+p9ff7F961vVcnl4R5I2ykJ5XFN7Ab7Gc61VoipNBKF+PDyztu5lfrSLT/wIwCxq0CAGtXHZTzqR2jtwQiXONma6hHpj9sLT7YaPxfTXuZdBGA02Wi7FS48YiTfj+i2NhqtdhP5RC8mh2/Op7y0v6eAcWVLFT8D7kWX5S9mepp+C450MV6aWL1cGnvkxbwHtLW2B9AOkLeUd9KEDuh9fl/7CEj7YH5g+3r/lWfF9In7tPz6T4IIwBJOr1SJyIGQMZQbsh5P9uBq5VJtqHh2mo49pdw5WFoEwKWqWHacaWOjQXWGcifKo6vj5RGS6zykI587XeUIQDqJSmAp+lE4qt19W5P9o8+Lma5DcjsC8JiT607lMVkdqQ0Vyh3lHhmh52tfNy78ajXv0rgYzv8nfwswANuk+7sD/Q0aAAAAAElFTkSuQmCC">
+        <style>
+            html, body, pre {
+                margin: 0;
+                padding: 0;
+                font-family: Monaco, 'Lucida Console', monospace;
+                background: #ECECEC;
+            }
+            h1 {
+                margin: 0;
+                background: #AD632A;
+                padding: 20px 45px;
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+                border-bottom: 1px solid #9F5805;
+                font-size: 28px;
+            }
+            p#detail {
+                margin: 0;
+                padding: 15px 45px;
+                background: #F6A960;
+                border-top: 4px solid #D29052;
+                color: #733512;
+                text-shadow: 1px 1px 1px rgba(255,255,255,.3);
+                font-size: 14px;
+                border-bottom: 1px solid #BA7F5B;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Bad Request</h1>
+
+        <p id="detail">
+            For request 'POST /events/cte/disagree' [Error decoding json body: com.fasterxml.jackson.core.io.JsonEOFException: Unexpected end-of-input: expected close marker for Object (start marker at [Source: akka.util.ByteIterator$ByteArrayIterator$$anon$1@5f468b7f; line: 1, column: 43])
+ at [Source: akka.util.ByteIterator$ByteArrayIterator$$anon$1@5f468b7f; line: 1, column: 283]]
+        </p>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+28/01/2020 16:58:40 - [DESACORDO_OPERACAO_DADOS]
+28/01/2020 16:58:40 - {"CNPJInteressado": "23123123", "infEvento": {"chCTe": "123123", "tpAmb": "2", "dhEvento": "20-01-2816:5816:58:40-3:00", "indDesacordooper": "1", "xObs": "123123"}} 
+28/01/2020 16:58:42 - [DESACORDO_OPERACAO_RESPOSTA]
+28/01/2020 16:58:42 - Token de acesso invalido.
+28/01/2020 17:13:36 - [DESACORDO_OPERACAO_DADOS]
+28/01/2020 17:13:36 - {"CNPJInteressado": "123123", "infEvento": {"chCTe": "123123", "tpAmb": "2", "dhEvento": "2020-01-28T17:13:36-3:00", "indDesacordooper": "1"}}
+28/01/2020 17:13:37 - [DESACORDO_OPERACAO_RESPOSTA]
+28/01/2020 17:13:37 - Token de acesso invalido.
+28/01/2020 17:17:15 - [DESACORDO_OPERACAO_DADOS]
+28/01/2020 17:17:15 - {"CNPJInteressado": "12312", "infEvento": {"chCTe": "123123", "tpAmb": "2", "dhEvento": "2020-01-28T17:17:15-3:00", "indDesacordooper": "1", "xObs": "12312"}}
+28/01/2020 17:17:25 - [DESACORDO_OPERACAO_RESPOSTA]
+28/01/2020 17:17:25 - Token de acesso invalido.

@@ -18,7 +18,7 @@ object frmPrincipal: TfrmPrincipal
     Top = 0
     Width = 580
     Height = 609
-    ActivePage = formLote
+    ActivePage = TabSheet1
     Align = alCustom
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -700,6 +700,144 @@ object frmPrincipal: TfrmPrincipal
         Font.Style = []
         ParentFont = False
         TabOrder = 10
+      end
+    end
+    object TabSheet1: TTabSheet
+      Caption = 'Desacordo'
+      ImageIndex = 3
+      object Label20: TLabel
+        Left = 43
+        Top = 79
+        Width = 42
+        Height = 16
+        Caption = 'Chave:'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+      end
+      object Label21: TLabel
+        Left = 330
+        Top = 55
+        Width = 110
+        Height = 16
+        Caption = 'Tipo de Ambiente:'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+      end
+      object Label22: TLabel
+        Left = 43
+        Top = 31
+        Width = 131
+        Height = 16
+        Caption = 'CNPJ do Interessado:'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+      end
+      object Label23: TLabel
+        Left = 171
+        Top = 159
+        Width = 216
+        Height = 16
+        Caption = 'Observa'#231#227'o do Tomador(opcional):'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+      end
+      object cbtpAmbDesacordo: TComboBox
+        Left = 454
+        Top = 55
+        Width = 35
+        Height = 28
+        Style = csDropDownList
+        ItemIndex = 1
+        TabOrder = 0
+        Text = '2'
+        Items.Strings = (
+          '1'
+          '2')
+      end
+      object GroupBox3: TGroupBox
+        Left = 19
+        Top = 397
+        Width = 544
+        Height = 177
+        Caption = 'Retorno API'
+        TabOrder = 1
+        object memoRetornoDesacordo: TMemo
+          Left = 12
+          Top = 24
+          Width = 517
+          Height = 145
+          TabOrder = 0
+        end
+      end
+      object txtCNPJIntDesacordo: TEdit
+        Left = 180
+        Top = 28
+        Width = 117
+        Height = 24
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 2
+      end
+      object txtchCTeDesacordo: TEdit
+        Left = 91
+        Top = 76
+        Width = 206
+        Height = 24
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 3
+      end
+      object btnDesacordo: TButton
+        Left = 31
+        Top = 363
+        Width = 516
+        Height = 28
+        Caption = 'Enviar'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 4
+        OnClick = btnDesacordoClick
+      end
+      object txtxObsDesacordo: TEdit
+        Left = 32
+        Top = 213
+        Width = 516
+        Height = 24
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 5
       end
     end
   end

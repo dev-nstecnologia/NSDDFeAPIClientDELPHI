@@ -27,6 +27,7 @@ function downloadDocUnico(caminho: String; incluirPdf: boolean;
   jsonRetorno: TJSONObject): String;
 function tratamentoDownloadUnico(caminho: String; incluirPdf: boolean;
   jsonRetorno: TJSONObject): String;
+function desacordoOperacao(CNPJInt, chCTe, tpAmb: String; xObs: String = ''): String;
 function salvarXML(xml, caminho, chave: String; modelo: String = '55';
   tpEvento: String = ''): String;
 function salvarPDF(pdf, caminho, chave: String; modelo: String = '55';
@@ -381,6 +382,59 @@ begin
   begin
     ShowMessage(jsonRetorno.GetValue('motivo').Value);
   end;
+end;
+
+// Faz o desacorodo de operação de um CT-e
+function desacordoOperacao(CNPJInt, chCTe, tpAmb: String; xObs: String = ''): String;
+var
+  arquivo: TextFile;
+  jsonRetorno, erro: TJSONObject;
+  json, resposta, url, status, data, hora, dhEvento: String;
+begin
+  data := FormatDateTime('yyyy-mm-dd', Now);
+  hora := FormatDateTime('hh:MM:ss', Now);
+  dhEvento := data + 'T' + hora + '-3:00';
+  json := '{' +
+          '"CNPJInteressado": "' + CNPJInt + '", ' +
+          '"infEvento": {' +
+            '"chCTe": "'   + chCTe + '", ' +
+            '"tpAmb": "'    + tpAmb + '", ' +
+            '"dhEvento": "' + dhEvento + '", ' +
+            '"indDesacordooper": "1"';
+
+  if (xObs <> '') then
+  begin
+    json := json + ', ' +
+          '"xObs": "' + xObs + '"';
+  end;
+  json := json + '}}';
+
+  url := 'https://ddfe.ns.eti.br/events/cte/disagree';
+
+  gravaLinhaLog('[DESACORDO_OPERACAO_DADOS]');
+  gravaLinhaLog(json);
+
+  resposta := enviaConteudoParaAPI(json, url, 'json');
+
+  gravaLinhaLog('[DESACORDO_OPERACAO_RESPOSTA]');
+  gravaLinhaLog(resposta);
+
+  jsonRetorno := TJSONObject.ParseJSONValue(TEncoding.ASCII.GetBytes(resposta),
+    0) as TJSONObject;
+  status := jsonRetorno.GetValue('status').Value;
+  if (status = '200') then
+  begin
+    ShowMessage('Download em Lote feito com sucesso');
+  end
+  else
+  begin
+    erro := jsonRetorno.Get('erro').JsonValue;
+    jsonRetorno := TJSONObject.ParseJSONValue
+      (TEncoding.ASCII.GetBytes(erro.ToString), 0) as TJSONObject;
+    ShowMessage(jsonRetorno.GetValue('xMotivo').Value);
+  end;
+  Result := resposta;
+
 end;
 
 // Função para salvar o XML de retorno

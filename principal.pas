@@ -63,9 +63,22 @@ type
     txtXJustMani: TEdit;
     Label5: TLabel;
     txtCNPJIntLote: TEdit;
+    TabSheet1: TTabSheet;
+    Label20: TLabel;
+    Label21: TLabel;
+    Label22: TLabel;
+    Label23: TLabel;
+    cbtpAmbDesacordo: TComboBox;
+    GroupBox3: TGroupBox;
+    memoRetornoDesacordo: TMemo;
+    txtCNPJIntDesacordo: TEdit;
+    txtchCTeDesacordo: TEdit;
+    btnDesacordo: TButton;
+    txtxObsDesacordo: TEdit;
     procedure btnManifestacaoClick(Sender: TObject);
     procedure btnDownUniqClick(Sender: TObject);
     procedure btnDownLoteClick(Sender: TObject);
+    procedure btnDesacordoClick(Sender: TObject);
 
   private
     { Private declarations }
@@ -85,7 +98,6 @@ uses DDFeAPI;
 procedure TfrmPrincipal.btnManifestacaoClick(Sender: TObject);
 var
   retorno: String;
-  //manifestacao(CNPJInteressado, tpEvento, nsu, xJust: String; chave: String =''): String;
 begin
   if ((txtCNPJIntMani.Text <> '') and
       (txtNumDocMani.Text <> '')) then
@@ -107,7 +119,6 @@ begin
     Showmessage('Todos os campos devem estar preenchidos');
   end;
 end;
-
 
 procedure TfrmPrincipal.btnDownUniqClick(Sender: TObject);
 
@@ -140,7 +151,6 @@ begin
   end;
 end;
 
-
 procedure TfrmPrincipal.btnDownLoteClick(Sender: TObject);
 var
   retorno, apenasXml, eventos: String;
@@ -156,6 +166,26 @@ begin
     chkApenasComXmlLote.Checked, chkComEventosLote.Checked, chkIncluirPdfLote.Checked);
 
     memoRetornoLote.Text := retorno;
+  end
+  else
+  begin
+    Showmessage('Todos os campos devem estar preenchidos');
+  end;
+end;
+
+procedure TfrmPrincipal.btnDesacordoClick(Sender: TObject);
+var
+  retorno, apenasXml, eventos: String;
+begin
+  // Valida se todos os campos foram preenchidos
+  if ((txtchCTeDesacordo.Text <> '') and
+      (txtCNPJIntDesacordo.Text <> ''))then
+  begin
+    memoRetornoUniq.Lines.Clear;
+    retorno := desacordoOperacao(txtCNPJIntDesacordo.Text, txtchCTeDesacordo.Text,
+    cbtpAmbDesacordo.Text, txtxObsDesacordo.Text);
+
+    memoRetornoDesacordo.Text := retorno;
   end
   else
   begin
